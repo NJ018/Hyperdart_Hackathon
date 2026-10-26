@@ -1,0 +1,104 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Florida",
+    "wgID": 1004,
+    "wgName": "STATES_ADMIN1",
+    "collectionName": "STATES_ADMIN1",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/New_York",
+      "lat": 28.75054,
+      "long": -82.5001,
+      "state": "Florida",
+      "country": "United States",
+      "stateAbb": "FL",
+      "primeCity": {
+       "QID": "Q16568",
+       "lat": 30.33218,
+       "long": -81.65565,
+       "label": "Jacksonville",
+       "geonameID": 4160021
+      },
+      "stateCode": "US.FL",
+      "countryCode": "US"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4155751",
+    "IDs": {
+     "wikiQID": "Q812",
+     "geonameID": 4155751
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "description": "state in the southeastern United States",
+    "qualifierReqd": 0,
+    "priority": 7,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.903,
+    "sourceValue": 20271272,
+    "index": 18,
+    "wgInfo": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "primaryID": "4155751"
+   }
+  ],
+  "query": "weather alerts in Florida",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in florida",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:10:06.140Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__REGIONS",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 25,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in florida",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

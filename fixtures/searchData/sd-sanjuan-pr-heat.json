@@ -1,0 +1,24 @@
+[
+ {
+  "query": "is there a heat advisory in San Juan Puerto Rico",
+  "_note": "Constructed (NLU resolves 'San Juan' to Argentina). Geo values from GeoNames San Juan, PR.",
+  "entities": [
+   {
+    "word": "San Juan",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "entityInfo": {
+     "geo": {
+      "lat": 18.46633,
+      "long": -66.10572,
+      "city": "San Juan",
+      "state": "Puerto Rico",
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "tz": "America/Puerto_Rico"
+     }
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "_source": "Synthetic: a 500 cannot be triggered on demand. Shape copied from the real problem+json 400 response in out-of-bounds-400.json.",
+ "capturedAt": "2026-10-26T07:10:00Z",
+ "request": "https://api.weather.gov/alerts/active?point=29.7633,-95.3633&status=actual&message_type=alert,update",
+ "status": 500,
+ "body": {
+  "correlationId": "demo500",
+  "title": "Unexpected Problem",
+  "type": "https://api.weather.gov/problems/UnexpectedProblem",
+  "status": 500,
+  "detail": "An unexpected problem has occurred.",
+  "instance": "https://api.weather.gov/requests/demo500"
+ }
+}

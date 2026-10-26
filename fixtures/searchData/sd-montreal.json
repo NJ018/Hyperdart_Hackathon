@@ -1,0 +1,99 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Montreal",
+    "wgID": 1005,
+    "wgName": "COUNTY/DISTRICT_ADMIN2",
+    "collectionName": "COUNTY/DISTRICT_ADMIN2",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Toronto",
+      "lat": 45.50008,
+      "long": -73.68248,
+      "state": "Quebec",
+      "country": "Canada",
+      "district": "Montr\u00e9al",
+      "stateAbb": "10",
+      "stateCode": "CA.10",
+      "countryCode": "CA",
+      "districtCode": "CA.10.06"
+     },
+     "labelSource": "geoname"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "6077246",
+    "IDs": {
+     "wikiQID": "Q2826806",
+     "geonameID": 6077246
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities",
+     "level": 1,
+     "template": "cities"
+    },
+    "description": "geographical regional county municipality in Quebec",
+    "qualifierReqd": 0,
+    "priority": 9,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.373,
+    "sourceValue": 2074068,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities",
+     "level": 1,
+     "template": "cities"
+    },
+    "primaryID": "6077246"
+   }
+  ],
+  "query": "weather alerts in Montreal",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in montreal",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:53:29.280Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__REGIONS",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 26,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in montreal",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

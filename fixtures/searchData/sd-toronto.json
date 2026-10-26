@@ -1,0 +1,98 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Toronto",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Toronto",
+      "lat": 43.70011,
+      "city": "Toronto",
+      "long": -79.4163,
+      "state": "Ontario",
+      "country": "Canada",
+      "district": null,
+      "stateAbb": "08",
+      "stateCode": "CA.08",
+      "countryQID": "Q16",
+      "countryCode": "CA",
+      "districtCode": ""
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "6167865",
+    "IDs": {
+     "wikiQID": "Q172",
+     "TPcityID": 21396,
+     "geonameID": 6167865
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "capital city of the province of Ontario, Canada",
+    "qualifierReqd": 0,
+    "priority": 7,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.484,
+    "sourceValue": 2731571,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "6167865"
+   }
+  ],
+  "query": "weather alerts in Toronto",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in toronto",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:07:03.314Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__CITIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 25,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in toronto",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

@@ -1,0 +1,98 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "London",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "Europe/London",
+      "lat": 51.50853,
+      "city": "London",
+      "long": -0.12574,
+      "state": "England",
+      "country": "United Kingdom",
+      "district": "Greater London",
+      "stateAbb": "ENG",
+      "stateCode": "GB.ENG",
+      "countryQID": "Q2277",
+      "countryCode": "GB",
+      "districtCode": "GB.ENG.GLA"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "2643743",
+    "IDs": {
+     "wikiQID": "Q84",
+     "TPcityID": 7896,
+     "geonameID": 2643743
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "capital and largest city of the United Kingdom",
+    "qualifierReqd": 0,
+    "priority": 6,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.808,
+    "sourceValue": 8908081,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "2643743"
+   }
+  ],
+  "query": "weather alerts in London",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in london",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:07:05.751Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__CITIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 24,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in london",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

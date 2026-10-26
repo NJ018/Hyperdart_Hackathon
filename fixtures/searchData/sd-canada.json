@@ -1,0 +1,102 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Canada",
+    "wgID": 1003,
+    "wgName": "COUNTRIES",
+    "collectionName": "COUNTRIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Toronto",
+      "lat": 60.10867,
+      "long": -113.64258,
+      "country": "Canada",
+      "primeCity": {
+       "QID": "Q1930",
+       "lat": 45.41117,
+       "long": -75.69812,
+       "label": "Ottawa",
+       "geonameID": 6094817
+      },
+      "countryCode": "CA"
+     },
+     "hdLabel": "Canada",
+     "labelSource": "geoname"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "6251999",
+    "IDs": {
+     "wikiQID": "Q16",
+     "geonameID": 6251999
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "countries",
+     "level": 1,
+     "template": "countries"
+    },
+    "description": "sovereign state in North America",
+    "qualifierReqd": 0,
+    "priority": 6,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.939,
+    "sourceValue": 37894799,
+    "index": 18,
+    "wgInfo": {
+     "Type": "countries",
+     "level": 1,
+     "template": "countries"
+    },
+    "primaryID": "6251999"
+   }
+  ],
+  "query": "weather alerts in Canada",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in canada",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:53:28.218Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__REGIONS",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 24,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in canada",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

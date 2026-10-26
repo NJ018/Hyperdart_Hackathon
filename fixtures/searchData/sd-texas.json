@@ -1,0 +1,104 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Texas",
+    "wgID": 1004,
+    "wgName": "STATES_ADMIN1",
+    "collectionName": "STATES_ADMIN1",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Chicago",
+      "lat": 31.25044,
+      "long": -99.25061,
+      "state": "Texas",
+      "country": "United States",
+      "stateAbb": "TX",
+      "primeCity": {
+       "QID": "Q16555",
+       "lat": 29.76328,
+       "long": -95.36327,
+       "label": "Houston",
+       "geonameID": 4699066
+      },
+      "stateCode": "US.TX",
+      "countryCode": "US"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4736286",
+    "IDs": {
+     "wikiQID": "Q1439",
+     "geonameID": 4736286
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "description": "state of the United States of America",
+    "qualifierReqd": 0,
+    "priority": 5,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.926,
+    "sourceValue": 28995881,
+    "index": 0,
+    "wgInfo": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "primaryID": "4736286"
+   }
+  ],
+  "query": "Texas weather alerts",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "texas weather alerts",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:07:03.677Z",
+  "qualifierReqd": false,
+  "genericQuery": "HD_LOCATION__CITIES weather alerts",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "HD_LOCATION__([^\\s]+)(__\\w+)?\\s+(weather\\s+)?(alerts?|warnings?|advisories).*",
+  "explain": {
+   "tC": 20,
+   "uC": 0,
+   "tW": 3,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "texas weather alerts",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

@@ -1,0 +1,108 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Delhi",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "Asia/Kolkata",
+      "lat": 28.65195,
+      "city": "Delhi",
+      "long": 77.23149,
+      "state": "Delhi",
+      "country": "India",
+      "district": null,
+      "stateAbb": "07",
+      "stateCode": "IN.07",
+      "countryQID": "Q668",
+      "countryCode": "IN",
+      "districtCode": ""
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "1273294",
+    "IDs": {
+     "wikiQID": "Q1353",
+     "geonameID": 1273294
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "Indian metropolis and union territory that includes New Delhi",
+    "qualifierReqd": 0,
+    "priority": 5,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.921,
+    "sourceValue": 26495000,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "1273294"
+   }
+  ],
+  "query": "weather alerts in Delhi",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in delhi",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:06:32.088Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__REGIONS",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 23,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in delhi",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1,
+  "userLocation": {
+   "position": {
+    "coords": {
+     "latitude": 26.4631,
+     "longitude": 80.3479
+    },
+    "countryCode": "IN"
+   },
+   "source": "ip"
+  },
+  "_note": "Real hyperDart NLU output; userLocation added from the problem statement example"
+ }
+]

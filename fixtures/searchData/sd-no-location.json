@@ -1,0 +1,7 @@
+[
+ {
+  "query": "severe weather",
+  "entities": [],
+  "_note": "Constructed: keyword-only query with no place and no userLocation"
+ }
+]

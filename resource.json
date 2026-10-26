@@ -1,0 +1,71 @@
+{
+  "title": "HeadsUp — Live Disruption & Safety Alerts",
+  "description": "Answers whether official weather and safety alerts are active for a place right now: what is happening, how serious it is, where exactly and until when. Live data from the US National Weather Service (US and territories) and Environment and Climate Change Canada; other countries get an honest outside-coverage answer with links to their official warning agency.",
+  "componentScope": {
+    "supportedIntents": [
+      {
+        "intent": "active-alerts-for-place",
+        "description": "Any active official alerts for a city, county, state, province or country.",
+        "example": [
+          "weather alerts in Houston",
+          "severe weather alerts in Alaska",
+          "weather alerts in Quebec"
+        ]
+      },
+      {
+        "intent": "hazard-specific-alert",
+        "description": "A yes/no or list answer for one hazard or alert kind, e.g. floods, heat, tornadoes, winter storms.",
+        "example": [
+          "is there a heat advisory in Phoenix",
+          "flood warnings in Colorado",
+          "tornado warning near me"
+        ]
+      },
+      {
+        "intent": "alerts-near-me",
+        "description": "Alerts at the searcher's location (from userLocation, or the device location if they allow it).",
+        "example": [
+          "weather alerts near me",
+          "any warnings around me"
+        ]
+      }
+    ]
+  },
+  "schema": {
+    "$defs": {
+      "hazards": {
+        "type": "string",
+        "description": "Hazard family the query is about, if any.",
+        "enum": ["flood", "heat", "tornado", "hurricane", "winter", "airQuality", "fire", "coastal", "wind", "storm", "fog", "tsunami", "avalanche"]
+      },
+      "tiers": {
+        "type": "string",
+        "description": "Kind of alert asked for, if any.",
+        "enum": ["warning", "watch", "advisory", "statement"]
+      }
+    },
+    "type": "object",
+    "description": "An alert lookup request. The place itself comes from the HD_LOCATION entity (or userLocation for near-me queries).",
+    "properties": {
+      "type": {
+        "type": "string",
+        "description": "'query' for a place / hazard lookup."
+      },
+      "filters": {
+        "type": "object",
+        "description": "Optional narrowing of the alerts shown.",
+        "properties": {
+          "hazard": { "$ref": "#/$defs/hazards" },
+          "tier": { "$ref": "#/$defs/tiers" },
+          "severeOnly": { "type": "boolean", "description": "Only Severe and Extreme alerts." },
+          "nearMe": { "type": "boolean", "description": "Use the searcher's location instead of a named place." }
+        },
+        "additionalProperties": false
+      },
+      "entities": {
+        "collections": ["CITIES", "STATES_ADMIN1", "COUNTRIES", "COUNTY/DISTRICT_ADMIN2", "ZIP_CODES", "COUNTRIES_CAPITAL"]
+      }
+    },
+    "required": ["type", "filters", "entities"]
+  }
+}

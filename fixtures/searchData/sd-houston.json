@@ -1,0 +1,109 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Houston",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Chicago",
+      "lat": 29.76328,
+      "city": "Houston",
+      "long": -95.36327,
+      "state": "Texas",
+      "country": "United States",
+      "district": "Harris County",
+      "stateAbb": "TX",
+      "stateCode": "US.TX",
+      "countryQID": "Q30",
+      "countryCode": "US",
+      "districtCode": "US.TX.201"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4699066",
+    "IDs": {
+     "wikiQID": "Q16555",
+     "TPcityID": 22384,
+     "geonameID": 4699066
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "county seat of Harris County, Texas; fourth largest city in the United States by population",
+    "qualifierReqd": 0,
+    "priority": 7,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.42,
+    "sourceValue": 2319603,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "4699066"
+   }
+  ],
+  "query": "weather alerts in Houston",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in houston",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:06:29.799Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__CITIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 25,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in houston",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1,
+  "userLocation": {
+   "position": {
+    "coords": {
+     "latitude": 26.4631,
+     "longitude": 80.3479
+    },
+    "countryCode": "IN"
+   },
+   "source": "ip"
+  },
+  "_note": "Real hyperDart NLU output; userLocation added from the problem statement example"
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "San Juan",
+    "wgID": 1004,
+    "wgName": "STATES_ADMIN1",
+    "collectionName": "STATES_ADMIN1",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Argentina/San_Juan",
+      "lat": -31,
+      "long": -69,
+      "state": "San Juan",
+      "country": "Argentina",
+      "stateAbb": "18",
+      "primeCity": {
+       "QID": "Q44241",
+       "lat": -31.5375,
+       "long": -68.53639,
+       "label": "San Juan",
+       "geonameID": 3837213
+      },
+      "stateCode": "AR.18",
+      "countryCode": "AR"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "3837152",
+    "IDs": {
+     "wikiQID": "Q44805",
+     "geonameID": 3837152
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "description": "province of Argentina",
+    "qualifierReqd": 0,
+    "priority": 8,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 98.655,
+    "sourceValue": 738959,
+    "index": 28,
+    "wgInfo": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "primaryID": "3837152"
+   }
+  ],
+  "query": "is there a heat advisory in San Juan",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "heat advisory",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "is there a heat advisory in san juan",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:10:05.167Z",
+  "qualifierReqd": false,
+  "genericQuery": "is there a heat advisory in HD_LOCATION__COUNTY/DISTRICT_ADMIN2",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "is\\s+there\\s+(a|an|any)\\s+.*(warning|alert|watch|advisory)\\s+(in|for|near)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 36,
+   "uC": 0,
+   "tW": 8,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "is there a heat advisory in san juan",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

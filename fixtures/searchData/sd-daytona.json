@@ -1,0 +1,98 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Daytona Beach",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/New_York",
+      "lat": 29.21081,
+      "city": "Daytona Beach",
+      "long": -81.02283,
+      "state": "Florida",
+      "country": "United States",
+      "district": "Volusia County",
+      "stateAbb": "FL",
+      "stateCode": "US.FL",
+      "countryQID": "Q30",
+      "countryCode": "US",
+      "districtCode": "US.FL.127"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4152872",
+    "IDs": {
+     "wikiQID": "Q490595",
+     "TPcityID": 17786,
+     "geonameID": 4152872
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "city in Florida, United States",
+    "qualifierReqd": 0,
+    "priority": 13,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 93.991,
+    "sourceValue": 64736,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "4152872"
+   }
+  ],
+  "query": "weather alerts in Daytona Beach",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in daytona beach",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:10:06.624Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__CITIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 31,
+   "uC": 0,
+   "tW": 5,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in daytona beach",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

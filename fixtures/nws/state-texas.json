@@ -1,0 +1,815 @@
+{
+ "_source": "Live NWS response captured 2026-10-26 (UTC morning)",
+ "capturedAt": "2026-10-26T07:10:00Z",
+ "request": "https://api.weather.gov/alerts/active?area=TX&status=actual&message_type=alert,update",
+ "status": 200,
+ "body": {
+  "@context": [
+   "https://geojson.org/geojson-ld/geojson-context.jsonld",
+   {
+    "@version": "1.1",
+    "wx": "https://api.weather.gov/ontology#",
+    "@vocab": "https://api.weather.gov/ontology#"
+   }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0c1f081f0acfe0ecb1c78dc6e2c8fe0bd397f8d.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -106.39,
+        31.74
+       ],
+       [
+        -106.28,
+        31.78
+       ],
+       [
+        -106.14,
+        31.81
+       ],
+       [
+        -106.18,
+        31.76
+       ],
+       [
+        -106.3,
+        31.71
+       ],
+       [
+        -106.34,
+        31.68
+       ],
+       [
+        -106.35,
+        31.7
+       ],
+       [
+        -106.37,
+        31.71
+       ],
+       [
+        -106.38,
+        31.73
+       ],
+       [
+        -106.39,
+        31.74
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0c1f081f0acfe0ecb1c78dc6e2c8fe0bd397f8d.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.f0c1f081f0acfe0ecb1c78dc6e2c8fe0bd397f8d.001.1",
+     "areaDesc": "El Paso, TX",
+     "geocode": {
+      "SAME": [
+       "048141"
+      ],
+      "UGC": [
+       "TXC141"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/TXC141"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.761c448926ae5fd44dcc5e5cd6cc10accc5ebf7e.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.761c448926ae5fd44dcc5e5cd6cc10accc5ebf7e.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T23:43:00-06:00"
+      }
+     ],
+     "sent": "2026-10-26T00:46:00-06:00",
+     "effective": "2026-10-26T00:46:00-06:00",
+     "onset": "2026-10-26T00:46:00-06:00",
+     "expires": "2026-10-26T03:45:00-06:00",
+     "ends": "2026-10-26T03:45:00-06:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Immediate",
+     "event": "Flash Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS El Paso Tx/Santa Teresa NM",
+     "headline": "Flash Flood Warning issued October 26 at 12:46AM MDT until October 26 at 3:45AM MDT by NWS El Paso Tx/Santa Teresa NM",
+     "description": "FFWEPZ\n\nThe National Weather Service in El Paso Tx/Santa Teresa has extended\nthe\n\n* Flash Flood Warning for...\nCentral El Paso County in western Texas...\n\n* Until 345 AM MDT.\n\n* At 1246 AM MDT, Local law enforcement reported thunderstorms\nproducing heavy rain across the warned area. Between 1.5 and 3\ninches of rain have fallen. Flooding impacts will continue, but no\nadditional rainfall is expected. Flash flooding is already\noccurring.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nEast El Paso, Far East El Paso and Mission Valley.",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FFWEPZ"
+      ],
+      "WMOidentifier": [
+       "WGUS54 KEPZ 260646"
+      ],
+      "flashFloodDetection": [
+       "OBSERVED"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.EXT.KEPZ.FF.W.0237.000000T0000Z-261026T0945Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-26T03:45:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FFW"
+      ],
+      "NationalWeatherService": [
+       "FFW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e362c100a8dba207ff22ad01e4800ff8fa1b652.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -106.35,
+        31.69
+       ],
+       [
+        -106.3,
+        31.72
+       ],
+       [
+        -106.18,
+        31.76
+       ],
+       [
+        -106.11,
+        31.86
+       ],
+       [
+        -106,
+        31.87
+       ],
+       [
+        -106.02,
+        31.76
+       ],
+       [
+        -106.11,
+        31.69
+       ],
+       [
+        -106.3,
+        31.6
+       ],
+       [
+        -106.3,
+        31.62
+       ],
+       [
+        -106.33,
+        31.66
+       ],
+       [
+        -106.35,
+        31.69
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e362c100a8dba207ff22ad01e4800ff8fa1b652.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.5e362c100a8dba207ff22ad01e4800ff8fa1b652.001.1",
+     "areaDesc": "El Paso, TX",
+     "geocode": {
+      "SAME": [
+       "048141"
+      ],
+      "UGC": [
+       "TXC141"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/TXC141"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.939db48bbd75e52adccb7aa0fd52a6cab6dda77a.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.939db48bbd75e52adccb7aa0fd52a6cab6dda77a.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T22:09:00-06:00"
+      }
+     ],
+     "sent": "2026-10-26T00:44:00-06:00",
+     "effective": "2026-10-26T00:44:00-06:00",
+     "onset": "2026-10-26T00:44:00-06:00",
+     "expires": "2026-10-26T02:45:00-06:00",
+     "ends": "2026-10-26T02:45:00-06:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Immediate",
+     "event": "Flash Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS El Paso Tx/Santa Teresa NM",
+     "headline": "Flash Flood Warning issued October 26 at 12:44AM MDT until October 26 at 2:45AM MDT by NWS El Paso Tx/Santa Teresa NM",
+     "description": "FFWEPZ\n\nThe National Weather Service in El Paso Tx/Santa Teresa has extended\nthe\n\n* Flash Flood Warning for...\nEast Central El Paso County in western Texas...\n\n* Until 245 AM MDT.\n\n* At 1244 AM MDT, Local law enforcement reported thunderstorms\nproducing heavy rain across the warned area. Between 1.5 and 3.5\ninches of rain have fallen. Additional rainfall amounts up to 0.5\ninches are possible in the warned area. Flash flooding is already\noccurring.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nEast El Paso, Far East El Paso, Mission Valley, Horizon City,\nSocorro, Sparks and Butterfield.",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FFWEPZ"
+      ],
+      "WMOidentifier": [
+       "WGUS54 KEPZ 260644"
+      ],
+      "flashFloodDetection": [
+       "OBSERVED"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.EXT.KEPZ.FF.W.0235.000000T0000Z-261026T0845Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-26T02:45:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FFW"
+      ],
+      "NationalWeatherService": [
+       "FFW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16eafe88a469d55c70e73e9cb0c52e2a7ae5da8c.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -106.3,
+        31.77
+       ],
+       [
+        -106.28,
+        31.81
+       ],
+       [
+        -106.19,
+        31.85
+       ],
+       [
+        -106.11,
+        31.85
+       ],
+       [
+        -106.14,
+        31.81
+       ],
+       [
+        -106.3,
+        31.77
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.16eafe88a469d55c70e73e9cb0c52e2a7ae5da8c.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.16eafe88a469d55c70e73e9cb0c52e2a7ae5da8c.001.1",
+     "areaDesc": "El Paso, TX",
+     "geocode": {
+      "SAME": [
+       "048141"
+      ],
+      "UGC": [
+       "TXC141"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/TXC141"
+     ],
+     "references": [],
+     "sent": "2026-10-26T00:24:00-06:00",
+     "effective": "2026-10-26T00:24:00-06:00",
+     "onset": "2026-10-26T00:24:00-06:00",
+     "expires": "2026-10-26T03:30:00-06:00",
+     "ends": "2026-10-26T03:30:00-06:00",
+     "status": "Actual",
+     "messageType": "Alert",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Immediate",
+     "event": "Flash Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS El Paso Tx/Santa Teresa NM",
+     "headline": "Flash Flood Warning issued October 26 at 12:24AM MDT until October 26 at 3:30AM MDT by NWS El Paso Tx/Santa Teresa NM",
+     "description": "FFWEPZ\n\nThe National Weather Service in El Paso Tx/Santa Teresa has issued a\n\n* Flash Flood Warning for...\nEast Central El Paso County in western Texas...\n\n* Until 330 AM MDT.\n\n* At 1224 AM MDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 0.5 and 1 inch of rain\nhas fallen. Additional rainfall amounts up to 0.5 inches are\npossible in the warned area. Flash flooding is ongoing or expected\nto begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nFar East El Paso and Homestead Meadows.",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FFWEPZ"
+      ],
+      "WMOidentifier": [
+       "WGUS54 KEPZ 260624"
+      ],
+      "flashFloodDetection": [
+       "RADAR INDICATED"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.NEW.KEPZ.FF.W.0238.261026T0624Z-261026T0930Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-26T03:30:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FFW"
+      ],
+      "NationalWeatherService": [
+       "FFW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5a8f7df923c82f6bda5682029ae74fc20b7629f.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -102.4,
+        35.82
+       ],
+       [
+        -102.35,
+        35.92
+       ],
+       [
+        -102.29,
+        36.05
+       ],
+       [
+        -102.45,
+        36.05
+       ],
+       [
+        -102.51,
+        36.02
+       ],
+       [
+        -102.56,
+        35.85
+       ],
+       [
+        -102.48,
+        35.79
+       ],
+       [
+        -102.4,
+        35.82
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5a8f7df923c82f6bda5682029ae74fc20b7629f.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.c5a8f7df923c82f6bda5682029ae74fc20b7629f.001.1",
+     "areaDesc": "Hartley, TX",
+     "geocode": {
+      "SAME": [
+       "048205"
+      ],
+      "UGC": [
+       "TXC205"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/TXC205"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ef9ab21243fc6cc61c4b991af753691ed1baa33.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.4ef9ab21243fc6cc61c4b991af753691ed1baa33.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T22:40:00-05:00"
+      }
+     ],
+     "sent": "2026-10-26T00:57:00-05:00",
+     "effective": "2026-10-26T00:57:00-05:00",
+     "onset": "2026-10-26T00:57:00-05:00",
+     "expires": "2026-10-26T03:15:00-05:00",
+     "ends": "2026-10-26T03:15:00-05:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Amarillo TX",
+     "headline": "Flood Warning issued October 26 at 12:57AM CDT until October 26 at 3:15AM CDT by NWS Amarillo TX",
+     "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...Northeastern Hartley County in the panhandle of Texas...\n\n* WHEN...Until 315 AM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring.\n\n* ADDITIONAL DETAILS...\n- At 1257 AM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Flooding is ongoing or expected to begin shortly\nin the warned area.\n- Some locations that will experience flooding include...\nHartley.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLWAMA"
+      ],
+      "WMOidentifier": [
+       "WGUS44 KAMA 260557"
+      ],
+      "NWSheadline": [
+       "FLOOD WARNING NOW IN EFFECT UNTIL 315 AM CDT EARLY THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.EXT.KAMA.FA.W.0017.000000T0000Z-261026T0815Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-26T03:15:00-05:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FLW"
+      ],
+      "NationalWeatherService": [
+       "FAW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18a7e3f15d766c7a012c2badc21d1b37c1dce7cc.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -103.04,
+        35.25
+       ],
+       [
+        -103.04,
+        36.06
+       ],
+       [
+        -102.69,
+        36.17
+       ],
+       [
+        -102.29,
+        36.09
+       ],
+       [
+        -102.51,
+        35.73
+       ],
+       [
+        -102.84,
+        35.3
+       ],
+       [
+        -103.04,
+        35.25
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.18a7e3f15d766c7a012c2badc21d1b37c1dce7cc.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.18a7e3f15d766c7a012c2badc21d1b37c1dce7cc.001.1",
+     "areaDesc": "Dallam, TX; Hartley, TX; Oldham, TX",
+     "geocode": {
+      "SAME": [
+       "048111",
+       "048205",
+       "048359"
+      ],
+      "UGC": [
+       "TXC111",
+       "TXC205",
+       "TXC359"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/TXC111",
+      "https://api.weather.gov/zones/county/TXC205",
+      "https://api.weather.gov/zones/county/TXC359"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.134bf0f7eea43dd7e388106de65f4b4c95c4c1bf.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.134bf0f7eea43dd7e388106de65f4b4c95c4c1bf.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T22:42:00-05:00"
+      }
+     ],
+     "sent": "2026-10-26T00:54:00-05:00",
+     "effective": "2026-10-26T00:54:00-05:00",
+     "onset": "2026-10-26T00:54:00-05:00",
+     "expires": "2026-10-26T03:15:00-05:00",
+     "ends": "2026-10-26T03:15:00-05:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Minor",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Flood Advisory",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Amarillo TX",
+     "headline": "Flood Advisory issued October 26 at 12:54AM CDT until October 26 at 3:15AM CDT by NWS Amarillo TX",
+     "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...Southwestern Dallam County in the panhandle of Texas...\nHartley County in the panhandle of Texas...\nNorthwestern Oldham County in the panhandle of Texas...\n\n* WHEN...Until 315 AM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 1254 AM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Some locations that will experience flooding include...\nDalhart and Romero.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLSAMA"
+      ],
+      "WMOidentifier": [
+       "WGUS84 KAMA 260554"
+      ],
+      "NWSheadline": [
+       "FLOOD ADVISORY NOW IN EFFECT UNTIL 315 AM CDT EARLY THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "VTEC": [
+       "/O.EXT.KAMA.FA.Y.0113.000000T0000Z-261026T0815Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-26T03:15:00-05:00"
+      ],
+      "expiredReferences": [
+       "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aac3dca2b76d4837a875df3a736c50604eedc6a2.001.1,2026-10-25T21:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5e0f618e67fdbea221208c7fa113b8d1fb0cddb8.001.1,2026-10-25T18:41:00-05:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "NWS"
+      ],
+      "NationalWeatherService": [
+       "FAY"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7784fd38a6f0ea2bd4681cda84670a641623be5.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7784fd38a6f0ea2bd4681cda84670a641623be5.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.b7784fd38a6f0ea2bd4681cda84670a641623be5.001.1",
+     "areaDesc": "Aransas Islands; Kleberg Islands; Nueces Islands; Calhoun Islands",
+     "geocode": {
+      "SAME": [
+       "048007",
+       "048273",
+       "048355",
+       "048057"
+      ],
+      "UGC": [
+       "TXZ345",
+       "TXZ442",
+       "TXZ443",
+       "TXZ447"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/forecast/TXZ345",
+      "https://api.weather.gov/zones/forecast/TXZ442",
+      "https://api.weather.gov/zones/forecast/TXZ443",
+      "https://api.weather.gov/zones/forecast/TXZ447"
+     ],
+     "references": [],
+     "sent": "2026-10-26T00:13:00-05:00",
+     "effective": "2026-10-26T00:13:00-05:00",
+     "onset": "2026-10-26T15:00:00-05:00",
+     "expires": "2026-10-26T08:15:00-05:00",
+     "ends": "2026-10-27T00:00:00-05:00",
+     "status": "Actual",
+     "messageType": "Alert",
+     "category": "Met",
+     "severity": "Minor",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Coastal Flood Advisory",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Corpus Christi TX",
+     "headline": "Coastal Flood Advisory issued October 26 at 12:13AM CDT until October 27 at 12:00AM CDT by NWS Corpus Christi TX",
+     "description": "* WHAT...Minor coastal flooding expected.\n\n* WHERE...Aransas Islands, Kleberg Islands, Nueces Islands and\nCalhoun Islands Counties.\n\n* WHEN...From 3 PM this afternoon to midnight CDT tonight.\n\n* IMPACTS...Flooding of lots, parks, and roads with only\nisolated road closures expected.",
+     "instruction": "If travel is required, allow extra time as some roads may be\nclosed. Do not drive around barricades or through water of\nunknown depth. Take the necessary actions to protect flood-prone\nproperty.",
+     "response": "Monitor",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "CFWCRP"
+      ],
+      "WMOidentifier": [
+       "WHUS44 KCRP 260513"
+      ],
+      "NWSheadline": [
+       "COASTAL FLOOD ADVISORY IN EFFECT FROM 3 PM THIS AFTERNOON TO MIDNIGHT CDT TONIGHT"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "VTEC": [
+       "/O.NEW.KCRP.CF.Y.0023.261026T2000Z-261027T0500Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-27T00:00:00-05:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "NWS"
+      ],
+      "NationalWeatherService": [
+       "CFY"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a3e265bbcd7fdbf4d12f7a810b57ec32a1aefca.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2a3e265bbcd7fdbf4d12f7a810b57ec32a1aefca.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.2a3e265bbcd7fdbf4d12f7a810b57ec32a1aefca.001.1",
+     "areaDesc": "Kenedy Island; Willacy Island; Cameron Island",
+     "geocode": {
+      "SAME": [
+       "048261",
+       "048489",
+       "048061"
+      ],
+      "UGC": [
+       "TXZ451",
+       "TXZ454",
+       "TXZ455"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/forecast/TXZ451",
+      "https://api.weather.gov/zones/forecast/TXZ454",
+      "https://api.weather.gov/zones/forecast/TXZ455"
+     ],
+     "references": [],
+     "sent": "2026-10-25T20:28:00-05:00",
+     "effective": "2026-10-25T20:28:00-05:00",
+     "onset": "2026-10-26T15:00:00-05:00",
+     "expires": "2026-10-27T00:00:00-05:00",
+     "ends": "2026-10-27T00:00:00-05:00",
+     "status": "Actual",
+     "messageType": "Alert",
+     "category": "Met",
+     "severity": "Minor",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Coastal Flood Statement",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Brownsville TX",
+     "headline": "Coastal Flood Statement issued October 25 at 8:28PM CDT until October 27 at 12:00AM CDT by NWS Brownsville TX",
+     "description": "* WHAT...Isolated minor coastal flooding expected.\n\n* WHERE...Kenedy Island, Willacy Island and Cameron Island\nCounties.\n\n* WHEN...From Monday afternoon through Monday evening.\n\n* IMPACTS...Wave run-up may approach the dunes along narrow\nbeaches. Beach equipment, such as umbrellas and chairs, could be\nmoved by waves. Vehicles driving along narrow beaches may\nexperience higher water levels. Elevated water levels may also\noccur across the Laguna Madre and South Bay, and along State\nHighway 4 west of Boca Chica State Park.",
+     "instruction": "Do not drive through flooded roadways.",
+     "response": "Monitor",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "CFWBRO"
+      ],
+      "WMOidentifier": [
+       "WHUS44 KBRO 260128"
+      ],
+      "NWSheadline": [
+       "COASTAL FLOOD STATEMENT IN EFFECT FROM MONDAY AFTERNOON THROUGH MONDAY EVENING"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "VTEC": [
+       "/O.NEW.KBRO.CF.S.0011.261026T2000Z-261027T0500Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-27T00:00:00-05:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "NWS"
+      ],
+      "NationalWeatherService": [
+       "CFS"
+      ]
+     }
+    }
+   }
+  ],
+  "title": "Current watches, warnings, and advisories for Texas",
+  "updated": "2026-10-26T07:05:05+00:00"
+ }
+}

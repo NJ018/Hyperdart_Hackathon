@@ -1,0 +1,13 @@
+{
+ "_source": "Live Environment Canada (MSC GeoMet) response captured 2026-10-26",
+ "capturedAt": "2026-10-26T07:55:00Z",
+ "request": "https://api.weather.gc.ca/collections/weather-alerts/items?f=json&lang=en&limit=500&bbox=-79.4363,43.6801,-79.3963,43.7201",
+ "status": 200,
+ "body": {
+  "type": "FeatureCollection",
+  "features": [],
+  "numberMatched": 0,
+  "numberReturned": 0,
+  "timeStamp": "2026-10-26T07:53:45.796318Z"
+ }
+}

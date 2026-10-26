@@ -1,0 +1,108 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Tornado",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/New_York",
+      "lat": 38.34287,
+      "city": "Upper Falls",
+      "long": -81.8443,
+      "state": "West Virginia",
+      "country": "United States",
+      "district": "Kanawha County",
+      "stateAbb": "WV",
+      "stateCode": "US.WV",
+      "countryQID": "Q30",
+      "countryCode": "US",
+      "districtCode": "US.WV.039"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4825617",
+    "IDs": {
+     "wikiQID": "Q2599178",
+     "geonameID": 4825617
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "census-designated place in Kanawha County, West Virginia",
+    "qualifierReqd": 0,
+    "priority": 7,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 74.157,
+    "sourceValue": 3701,
+    "index": 0,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "4825617"
+   }
+  ],
+  "query": "tornado warning near me",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "tornado warning",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "tornado warning near me",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:07:04.450Z",
+  "qualifierReqd": false,
+  "genericQuery": "HD_LOCATION__CITIES warning near me",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "HD_LOCATION__([^\\s]+)(__\\w+)?\\s+(weather\\s+)?(alerts?|warnings?|advisories).*",
+  "explain": {
+   "tC": 23,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "tornado warning near me",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1,
+  "userLocation": {
+   "position": {
+    "coords": {
+     "latitude": 25.7743,
+     "longitude": -80.1937
+    },
+    "countryCode": "US"
+   },
+   "source": "ip"
+  },
+  "_note": "Real NLU output: 'Tornado' is resolved as a CITY (Tornado, WV); userLocation added"
+ }
+]

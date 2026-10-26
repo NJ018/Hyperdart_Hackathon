@@ -1,0 +1,56 @@
+[
+ {
+  "component": "headsup",
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [],
+  "query": "weather alerts near me",
+  "componentEnabled": 1,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   },
+   {
+    "word": "alerts near me",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts near me",
+  "disambiguationType": 3,
+  "isStandalone": 1,
+  "unresolvedQuery": "",
+  "genericQuery": "weather alerts near me",
+  "unambiguous": 1,
+  "qualifierReqd": false,
+  "queryRegex": "(weather\\s+)?(alerts?|warnings?)\\s+(near|around)\\s+me.*",
+  "explain": {
+   "tC": 22,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts near me",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "userLocation": {
+   "position": {
+    "coords": {
+     "latitude": 25.7743,
+     "longitude": -80.1937
+    },
+    "countryCode": "US"
+   },
+   "source": "ip"
+  },
+  "_note": "Real NLU output; userLocation (US IP, Miami) added"
+ }
+]

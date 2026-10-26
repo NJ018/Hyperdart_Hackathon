@@ -1,0 +1,98 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Miami Florida",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/New_York",
+      "lat": 25.77427,
+      "city": "Miami",
+      "long": -80.19366,
+      "state": "Florida",
+      "country": "United States",
+      "district": "Miami-Dade County",
+      "stateAbb": "FL",
+      "stateCode": "US.FL",
+      "countryQID": "Q30",
+      "countryCode": "US",
+      "districtCode": "US.FL.086"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4164138",
+    "IDs": {
+     "wikiQID": "Q8652",
+     "TPcityID": 17880,
+     "geonameID": 4164138
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "city in Miami-Dade County, Florida, United States",
+    "qualifierReqd": 0,
+    "priority": 13,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 98.162,
+    "sourceValue": 463347,
+    "index": 18,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "4164138"
+   }
+  ],
+  "query": "weather alerts in Miami Florida",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in miami florida",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:07:05.411Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__CITIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 31,
+   "uC": 0,
+   "tW": 5,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in miami florida",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

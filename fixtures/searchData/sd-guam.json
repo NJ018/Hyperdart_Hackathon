@@ -1,0 +1,102 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Guam",
+    "wgID": 1003,
+    "wgName": "COUNTRIES",
+    "collectionName": "COUNTRIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "Pacific/Guam",
+      "lat": 13.47861,
+      "long": 144.81834,
+      "country": "Guam",
+      "primeCity": {
+       "QID": null,
+       "lat": null,
+       "long": null,
+       "label": "Hagatna",
+       "geonameID": null
+      },
+      "countryCode": "GU"
+     },
+     "hdLabel": "Guam",
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "4043988",
+    "IDs": {
+     "wikiQID": "Q16635",
+     "geonameID": 4043988
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "countries",
+     "level": 1,
+     "template": "countries"
+    },
+    "description": "island territory of the United States of America",
+    "qualifierReqd": 0,
+    "priority": 4,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 96.574,
+    "sourceValue": 167772,
+    "index": 18,
+    "wgInfo": {
+     "Type": "countries",
+     "level": 1,
+     "template": "countries"
+    },
+    "primaryID": "4043988"
+   }
+  ],
+  "query": "weather alerts in Guam",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "weather alerts in guam",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:07:06.277Z",
+  "qualifierReqd": false,
+  "genericQuery": "weather alerts in HD_LOCATION__COUNTRIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 22,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "weather alerts in guam",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

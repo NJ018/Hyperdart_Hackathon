@@ -1,0 +1,99 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Colorado",
+    "wgID": 1004,
+    "wgName": "STATES_ADMIN1",
+    "collectionName": "STATES_ADMIN1",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Denver",
+      "lat": 39.00027,
+      "long": -105.50083,
+      "state": "Colorado",
+      "country": "United States",
+      "stateAbb": "CO",
+      "primeCity": {
+       "QID": "Q16554",
+       "lat": 39.73915,
+       "long": -104.9847,
+       "label": "Denver",
+       "geonameID": 5419384
+      },
+      "stateCode": "US.CO",
+      "countryCode": "US"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "5417618",
+    "IDs": {
+     "wikiQID": "Q1261",
+     "geonameID": 5417618
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "description": "state of the United States of America",
+    "qualifierReqd": 0,
+    "priority": 8,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.712,
+    "sourceValue": 5456574,
+    "index": 18,
+    "wgInfo": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "primaryID": "5417618"
+   }
+  ],
+  "query": "flood warnings in Colorado",
+  "componentEnabled": true,
+  "keyword": [],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "flood warnings in colorado",
+  "disambiguationType": 2,
+  "ugc": false,
+  "time": "2026-10-26T07:06:30.761Z",
+  "qualifierReqd": false,
+  "genericQuery": "flood warnings in HD_LOCATION__COUNTY/DISTRICT_ADMIN2",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(tornado|flood|flash\\s+flood|heat|winter\\s+storm|storm|wind|fire\\s+weather|hurricane|air\\s+quality)\\s+(alerts?|warnings?|watch(es)?|advisor(y|ies))\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 26,
+   "uC": 0,
+   "tW": 4,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "flood warnings in colorado",
+  "_disambiguationType": 2,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "_source": "Live NWS response captured 2026-10-26 (UTC morning)",
+ "capturedAt": "2026-10-26T07:10:00Z",
+ "request": "https://api.weather.gov/alerts/active?point=28.652,77.2315&status=actual&message_type=alert,update",
+ "status": 400,
+ "body": {
+  "correlationId": "12923",
+  "title": "Invalid Parameter",
+  "type": "https://api.weather.gov/problems/InvalidParameter",
+  "status": 400,
+  "detail": "Parameter \"point\" is invalid: out of bounds",
+  "instance": "https://api.weather.gov/requests/12923"
+ }
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Phoenix",
+    "wgID": 1000,
+    "wgName": "CITIES",
+    "collectionName": "CITIES",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Phoenix",
+      "lat": 33.44838,
+      "city": "Phoenix",
+      "long": -112.07404,
+      "state": "Arizona",
+      "country": "United States",
+      "district": "Maricopa County",
+      "stateAbb": "AZ",
+      "stateCode": "US.AZ",
+      "countryQID": "Q30",
+      "countryCode": "US",
+      "districtCode": "US.AZ.013"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "5308655",
+    "IDs": {
+     "wikiQID": "Q16556",
+     "TPcityID": 16826,
+     "geonameID": 5308655
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "cities"
+    },
+    "description": "county seat and capital city in Maricopa County, Arizona, USA, fifth largest city in the United States by population",
+    "qualifierReqd": 0,
+    "priority": 7,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 99.249,
+    "sourceValue": 1626078,
+    "index": 28,
+    "wgInfo": {
+     "Type": "cities"
+    },
+    "primaryID": "5308655"
+   }
+  ],
+  "query": "is there a heat advisory in Phoenix",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "heat advisory",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "is there a heat advisory in phoenix",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:06:31.430Z",
+  "qualifierReqd": false,
+  "genericQuery": "is there a heat advisory in HD_LOCATION__CITIES",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "is\\s+there\\s+(a|an|any)\\s+.*(warning|alert|watch|advisory)\\s+(in|for|near)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 35,
+   "uC": 0,
+   "tW": 7,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "is there a heat advisory in phoenix",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]

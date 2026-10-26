@@ -1,0 +1,754 @@
+{
+ "_source": "Live NWS response captured 2026-10-26 (UTC morning)",
+ "capturedAt": "2026-10-26T07:10:00Z",
+ "request": "https://api.weather.gov/alerts/active?area=CO&status=actual&message_type=alert,update",
+ "status": 200,
+ "body": {
+  "@context": [
+   "https://geojson.org/geojson-ld/geojson-context.jsonld",
+   {
+    "@version": "1.1",
+    "wx": "https://api.weather.gov/ontology#",
+    "@vocab": "https://api.weather.gov/ontology#"
+   }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ae14a0d5b0f32c693a127b62408ea7b7418f993.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -105.99,
+        37.46
+       ],
+       [
+        -106.21,
+        37.46
+       ],
+       [
+        -106.08,
+        37.54
+       ],
+       [
+        -106.08,
+        37.59
+       ],
+       [
+        -106.06,
+        37.6
+       ],
+       [
+        -106.18,
+        37.66
+       ],
+       [
+        -105.82,
+        37.64
+       ],
+       [
+        -105.73,
+        37.52
+       ],
+       [
+        -105.72,
+        37.51
+       ],
+       [
+        -105.93,
+        37.5
+       ],
+       [
+        -105.99,
+        37.46
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ae14a0d5b0f32c693a127b62408ea7b7418f993.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.4ae14a0d5b0f32c693a127b62408ea7b7418f993.001.1",
+     "areaDesc": "Alamosa, CO; Rio Grande, CO",
+     "geocode": {
+      "SAME": [
+       "008003",
+       "008105"
+      ],
+      "UGC": [
+       "COC003",
+       "COC105"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/COC003",
+      "https://api.weather.gov/zones/county/COC105"
+     ],
+     "references": [],
+     "sent": "2026-10-25T23:43:00-06:00",
+     "effective": "2026-10-25T23:43:00-06:00",
+     "onset": "2026-10-25T23:43:00-06:00",
+     "expires": "2026-10-27T00:45:00-06:00",
+     "ends": "2026-10-27T00:45:00-06:00",
+     "status": "Actual",
+     "messageType": "Alert",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Pueblo CO",
+     "headline": "Flood Warning issued October 25 at 11:43PM MDT until October 27 at 12:45AM MDT by NWS Pueblo CO",
+     "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Southeastern Rio Grande County in south central Colorado...\nWest Central Alamosa County in southeastern Colorado...\n\n* WHEN...Until 1245 AM MDT Tuesday.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring.\n\n* ADDITIONAL DETAILS...\n- At 1141 PM MDT, Gauge reports indicated high stream flows.\nFlooding is already occurring in the warned area.\n- Widespread inundation of agriculture fields, wetlands, and other\nlow-lying areas.\n- Some locations that will experience flooding include...\nMainly rural areas of Southeastern Rio Grande and West Central\nAlamosa Counties.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLWPUB"
+      ],
+      "WMOidentifier": [
+       "WGUS45 KPUB 260543"
+      ],
+      "NWSheadline": [
+       "FLOOD WARNING IN EFFECT UNTIL 1245 AM MDT TUESDAY"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.NEW.KPUB.FA.W.0018.261026T0543Z-261027T0645Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-27T00:45:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FLW"
+      ],
+      "NationalWeatherService": [
+       "FAW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3ac4cd9e8eed2186305a86b81283cd105791bb.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -105.73,
+        37.3
+       ],
+       [
+        -105.73,
+        37.28
+       ],
+       [
+        -105.72,
+        37.28
+       ],
+       [
+        -105.72,
+        37.27
+       ],
+       [
+        -105.81,
+        37.27
+       ],
+       [
+        -105.87,
+        37.19
+       ],
+       [
+        -105.88,
+        37
+       ],
+       [
+        -106.16,
+        37
+       ],
+       [
+        -106.16,
+        37.16
+       ],
+       [
+        -106.12,
+        37.21
+       ],
+       [
+        -105.97,
+        37.26
+       ],
+       [
+        -105.85,
+        37.33
+       ],
+       [
+        -105.75,
+        37.34
+       ],
+       [
+        -105.75,
+        37.33
+       ],
+       [
+        -105.74,
+        37.3
+       ],
+       [
+        -105.73,
+        37.3
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb3ac4cd9e8eed2186305a86b81283cd105791bb.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.cb3ac4cd9e8eed2186305a86b81283cd105791bb.001.1",
+     "areaDesc": "Conejos, CO",
+     "geocode": {
+      "SAME": [
+       "008021"
+      ],
+      "UGC": [
+       "COC021"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/COC021"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c15b0aa2d6f46951d8fdf6dcb5dca080249349f.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.1c15b0aa2d6f46951d8fdf6dcb5dca080249349f.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T20:24:00-06:00"
+      }
+     ],
+     "sent": "2026-10-25T22:47:00-06:00",
+     "effective": "2026-10-25T22:47:00-06:00",
+     "onset": "2026-10-25T22:47:00-06:00",
+     "expires": "2026-10-26T01:15:00-06:00",
+     "ends": "2026-10-26T01:15:00-06:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Pueblo CO",
+     "headline": "Flood Warning issued October 25 at 10:47PM MDT until October 26 at 1:15AM MDT by NWS Pueblo CO",
+     "description": "* WHAT...Flooding continues, especially along the Conejos River\n\n* WHERE...Southeastern Conejos County...\n\n* WHEN...Until 115 AM MDT.\n\n* IMPACTS...Flooding will continue across low-lying and flood-prone\nlocations, especially along and near the Conejos River.\n\n* ADDITIONAL DETAILS...\n- At 1047 PM MDT, River gauge reports indicate elevated river\nlevels continue due to multiple days of heavy rainfall. The\nConejos River at Mogote has crested, although high flows and\nflooding will persist, especially downstream from Mogote to the\nconfluence with the Rio Grande.\n- Some locations that may experience flooding include...\nManassa, Sanford and Conejos.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLWPUB"
+      ],
+      "WMOidentifier": [
+       "WGUS45 KPUB 260447"
+      ],
+      "NWSheadline": [
+       "FLOOD WARNING NOW IN EFFECT UNTIL 115 AM MDT MONDAY"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.EXT.KPUB.FA.W.0015.000000T0000Z-261026T0715Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-26T01:15:00-06:00"
+      ],
+      "expiredReferences": [
+       "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.96a731b76bfe43b6c1a0b532b281889864f47c56.001.1,2026-10-25T18:43:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ba3cd598b385a8d76e810b87b23252df74845de5.001.1,2026-10-25T16:01:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4d1b3a97979758b01bc685c2320307ab7190874a.001.1,2026-10-25T14:58:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d072dd1261b04ed50f03b7e3576f5b8a09109a13.001.1,2026-10-25T13:01:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8f32c4bed67af1e9c0aac89ba47a4cc8cec84fe2.001.1,2026-10-25T01:19:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FLW"
+      ],
+      "NationalWeatherService": [
+       "FAW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a703a3c695ed2171b61ac018bf3283ce6e8a8fc9.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -105.97,
+        37.59
+       ],
+       [
+        -105.89,
+        37.54
+       ],
+       [
+        -105.82,
+        37.49
+       ],
+       [
+        -105.86,
+        37.42
+       ],
+       [
+        -105.93,
+        37.47
+       ],
+       [
+        -106.01,
+        37.52
+       ],
+       [
+        -105.97,
+        37.59
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a703a3c695ed2171b61ac018bf3283ce6e8a8fc9.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.a703a3c695ed2171b61ac018bf3283ce6e8a8fc9.001.1",
+     "areaDesc": "Alamosa, CO",
+     "geocode": {
+      "SAME": [
+       "008003"
+      ],
+      "UGC": [
+       "COC003"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/COC003"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8186a07214c5ea0d5bf3b635c9b9fc3f3c6dfd68.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.8186a07214c5ea0d5bf3b635c9b9fc3f3c6dfd68.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T08:22:00-06:00"
+      }
+     ],
+     "sent": "2026-10-25T15:12:00-06:00",
+     "effective": "2026-10-25T15:12:00-06:00",
+     "onset": "2026-10-25T20:00:00-06:00",
+     "expires": "2026-10-26T03:15:00-06:00",
+     "ends": "2026-10-27T12:00:00-06:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Observed",
+     "urgency": "Immediate",
+     "event": "Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Pueblo CO",
+     "headline": "Flood Warning issued October 25 at 3:12PM MDT until October 27 at 12:00PM MDT by NWS Pueblo CO",
+     "description": "...The Flood Warning is extended for the following rivers in\nColorado...\n\nRio Grande At Alamosa affecting Alamosa County.\n\nFor the Upper Rio Grande...including Alamosa...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Rio Grande at Alamosa.\n\n* WHEN...From this evening to Tuesday afternoon.\n\n* IMPACTS...At 9.0 feet, Minor flooding. Minor agricultural flooding\nin low lying areas along the river\n\n* ADDITIONAL DETAILS...\n- At 2:30 PM MDT Sunday the stage was 8.3 feet.\n- Bankfull stage is 7.0 feet.\n- Forecast...The river is expected to rise above flood stage this\nevening to a crest of 9.6 feet tomorrow morning. It will then\nfall below flood stage early Tuesday morning.\n- Flood stage is 9.0 feet.\n- Flood History...This crest compares to a previous crest of 9.9\nfeet on 06/05/1948.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nCaution is urged when walking near riverbanks.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued late tonight at 315 AM MDT.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLSPUB"
+      ],
+      "WMOidentifier": [
+       "WGUS85 KPUB 252112"
+      ],
+      "NWSheadline": [
+       "FLOOD WARNING NOW IN EFFECT FROM THIS EVENING TO TUESDAY AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.EXT.KPUB.FL.W.0005.261026T0200Z-261027T1800Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-27T12:00:00-06:00"
+      ],
+      "expiredReferences": [
+       "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ede8c3675e6d454b5455bcb081f0abe71d2d734d.001.1,2026-10-24T20:04:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FLS"
+      ],
+      "NationalWeatherService": [
+       "FLW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a201d39528aaa4cd5c73201f76052c1a35c488a.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -110.24,
+        37.29
+       ],
+       [
+        -110.14,
+        37.3
+       ],
+       [
+        -110.01,
+        37.2
+       ],
+       [
+        -109.95,
+        37.21
+       ],
+       [
+        -109.95,
+        37.24
+       ],
+       [
+        -110.07,
+        37.3
+       ],
+       [
+        -110.09,
+        37.33
+       ],
+       [
+        -110.24,
+        37.33
+       ],
+       [
+        -110.64,
+        37.29
+       ],
+       [
+        -110.2,
+        37.39
+       ],
+       [
+        -109.82,
+        37.21
+       ],
+       [
+        -109.49,
+        37.34
+       ],
+       [
+        -109.15,
+        37.23
+       ],
+       [
+        -108.95,
+        37
+       ],
+       [
+        -109.14,
+        37
+       ],
+       [
+        -109.43,
+        37.21
+       ],
+       [
+        -109.92,
+        37.09
+       ],
+       [
+        -110.28,
+        37.25
+       ],
+       [
+        -110.24,
+        37.29
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a201d39528aaa4cd5c73201f76052c1a35c488a.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.4a201d39528aaa4cd5c73201f76052c1a35c488a.001.1",
+     "areaDesc": "Montezuma, CO; San Juan, UT",
+     "geocode": {
+      "SAME": [
+       "008083",
+       "049037"
+      ],
+      "UGC": [
+       "COC083",
+       "UTC037"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/COC083",
+      "https://api.weather.gov/zones/county/UTC037"
+     ],
+     "references": [
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a56c80c001c998d74ec295b1b3562060dfc65cda.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.a56c80c001c998d74ec295b1b3562060dfc65cda.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T10:07:00-06:00"
+      },
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8941c78c56646c68845dc0df12019ecf6fd1ddb5.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.8941c78c56646c68845dc0df12019ecf6fd1ddb5.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T10:51:00-06:00"
+      },
+      {
+       "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6c278a699b405056a33108728baed984c9ff323.001.1",
+       "identifier": "urn:oid:2.49.0.1.840.0.f6c278a699b405056a33108728baed984c9ff323.001.1",
+       "sender": "w-nws.webmaster@noaa.gov",
+       "sent": "2026-10-25T13:52:00-06:00"
+      }
+     ],
+     "sent": "2026-10-25T14:07:00-06:00",
+     "effective": "2026-10-25T14:07:00-06:00",
+     "onset": "2026-10-25T14:07:00-06:00",
+     "expires": "2026-10-27T06:00:00-06:00",
+     "ends": "2026-10-27T06:00:00-06:00",
+     "status": "Actual",
+     "messageType": "Update",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Immediate",
+     "event": "Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Grand Junction CO",
+     "headline": "Flood Warning issued October 25 at 2:07PM MDT until October 27 at 6:00AM MDT by NWS Grand Junction CO",
+     "description": "* WHAT...Catastrophic flooding caused by excessive rainfall is\nexpected along the San Juan River between Four Corners and Mexican\nHat. This is an emergency situation!\n\n* WHERE...Western Montezuma County in southwestern Colorado...\nSouthern San Juan County in southeastern Utah...\n\n* WHEN...Until 600 AM MDT Tuesday.\n\n* IMPACTS...Flooding along San Juan River is occurring or expected to\nbegin shortly. The crest will occur around Aneth, Montezuma Creek\nand Bluff this afternoon and evening.\n\n* ADDITIONAL DETAILS...\n- At 204 PM MDT, Sunday the stage for the San Juan river near Bluff\nwas 20 feet.\n- Bankfull stage is 22.0 feet.\n- Forecast...The river is expected to rise above flood stage this\nafternoon to a crest of 29.5 feet early Monday morning. It will\nthen fall below flood stage early Tuesday morning.\n- Flood stage is 23.0 feet.\n- Flood History...This crest compares to a previous crest of 32.0\nfeet on 09/10/1927.\n- Flooding impacts will continue, but no additional rainfall is\nexpected.\n- Some locations that will experience flooding include...\nMexican Hat, Tselakai Dezza, Bluff, Halchita, Montezuma Creek and\nAneth.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLSGJT"
+      ],
+      "WMOidentifier": [
+       "WGUS85 KGJT 252007"
+      ],
+      "NWSheadline": [
+       "FLOOD WARNING REMAINS IN EFFECT UNTIL 6 AM MDT TUESDAY"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.CON.KGJT.FA.W.0025.000000T0000Z-261027T1200Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-27T06:00:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FLS"
+      ],
+      "NationalWeatherService": [
+       "FAW"
+      ]
+     }
+    }
+   },
+   {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.596148dc4b6e7104cce02aa2eaee388cb3f30324.001.1",
+    "type": "Feature",
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -105.96,
+        37.26
+       ],
+       [
+        -106.04,
+        37.44
+       ],
+       [
+        -106.04,
+        37.46
+       ],
+       [
+        -105.99,
+        37.46
+       ],
+       [
+        -105.93,
+        37.5
+       ],
+       [
+        -105.93,
+        37.51
+       ],
+       [
+        -105.72,
+        37.51
+       ],
+       [
+        -105.74,
+        37.36
+       ],
+       [
+        -105.75,
+        37.35
+       ],
+       [
+        -105.75,
+        37.33
+       ],
+       [
+        -105.85,
+        37.32
+       ],
+       [
+        -105.96,
+        37.26
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.596148dc4b6e7104cce02aa2eaee388cb3f30324.001.1",
+     "@type": "wx:Alert",
+     "id": "urn:oid:2.49.0.1.840.0.596148dc4b6e7104cce02aa2eaee388cb3f30324.001.1",
+     "areaDesc": "Alamosa, CO; Conejos, CO",
+     "geocode": {
+      "SAME": [
+       "008003",
+       "008021"
+      ],
+      "UGC": [
+       "COC003",
+       "COC021"
+      ]
+     },
+     "affectedZones": [
+      "https://api.weather.gov/zones/county/COC003",
+      "https://api.weather.gov/zones/county/COC021"
+     ],
+     "references": [],
+     "sent": "2026-10-25T09:00:00-06:00",
+     "effective": "2026-10-25T09:00:00-06:00",
+     "onset": "2026-10-25T09:00:00-06:00",
+     "expires": "2026-10-27T09:00:00-06:00",
+     "ends": "2026-10-27T09:00:00-06:00",
+     "status": "Actual",
+     "messageType": "Alert",
+     "category": "Met",
+     "severity": "Severe",
+     "certainty": "Likely",
+     "urgency": "Expected",
+     "event": "Flood Warning",
+     "sender": "w-nws.webmaster@noaa.gov",
+     "senderName": "NWS Pueblo CO",
+     "headline": "Flood Warning issued October 25 at 9:00AM MDT until October 27 at 9:00AM MDT by NWS Pueblo CO",
+     "description": "* WHAT...Flooding caused by excessive rainfall which occurred over\nthe last couple of days is expected or ongoing.\n\n* WHERE...Northeastern Conejos County in south central Colorado...\nSouthwestern Alamosa County in southeastern Colorado...\n\n* WHEN...Until 900 AM MDT Tuesday.\n\n* IMPACTS...Flooding will occur in low-lying and flood-prone\nlocations is imminent or occurring.\n\n* ADDITIONAL DETAILS...\n- At 852 AM MDT, flooding was occurring along the Rio Grande River\nin low lying and agricultural areas. This high water is due to\nall of the heavy rain which occurred over the last couple of\ndays.\n- Some locations that will experience flooding include low lying\nareas in parts of Alamosa and parts of Conejos counties.\n- http://www.weather.gov/safety/flood",
+     "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+     "response": "Avoid",
+     "note": null,
+     "parameters": {
+      "AWIPSidentifier": [
+       "FLWPUB"
+      ],
+      "WMOidentifier": [
+       "WGUS45 KPUB 251500"
+      ],
+      "NWSheadline": [
+       "FLOOD WARNING IN EFFECT UNTIL 9 AM MDT TUESDAY"
+      ],
+      "BLOCKCHANNEL": [
+       "EAS",
+       "NWEM",
+       "CMAS"
+      ],
+      "EAS-ORG": [
+       "WXR"
+      ],
+      "VTEC": [
+       "/O.NEW.KPUB.FA.W.0016.261025T1500Z-261027T1500Z/"
+      ],
+      "eventEndingTime": [
+       "2026-10-27T09:00:00-06:00"
+      ]
+     },
+     "scope": "Public",
+     "code": "IPAWSv1.0",
+     "language": "en-US",
+     "web": "http://www.weather.gov",
+     "eventCode": {
+      "SAME": [
+       "FLW"
+      ],
+      "NationalWeatherService": [
+       "FAW"
+      ]
+     }
+    }
+   }
+  ],
+  "title": "Current watches, warnings, and advisories for Colorado",
+  "updated": "2026-10-26T07:05:05+00:00"
+ }
+}

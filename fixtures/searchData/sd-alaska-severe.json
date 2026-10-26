@@ -1,0 +1,108 @@
+[
+ {
+  "component": "headsup",
+  "componentID": 0,
+  "componentPrimaryName": "",
+  "templateID": 0,
+  "entities": [
+   {
+    "word": "Alaska",
+    "wgID": 1004,
+    "wgName": "STATES_ADMIN1",
+    "collectionName": "STATES_ADMIN1",
+    "collectionType": "HD_LOCATION",
+    "wgUGC": 0,
+    "templateID": 0,
+    "entityInfo": {
+     "geo": {
+      "tz": "America/Anchorage",
+      "lat": 64.00028,
+      "long": -150.00028,
+      "state": "Alaska",
+      "country": "United States",
+      "stateAbb": "AK",
+      "primeCity": {
+       "QID": "Q39450",
+       "lat": 61.21806,
+       "long": -149.90028,
+       "label": "Anchorage",
+       "geonameID": 5879400
+      },
+      "stateCode": "US.AK",
+      "countryCode": "US"
+     },
+     "labelSource": "wiki"
+    },
+    "compInfo": null,
+    "entityType": "LOCATION",
+    "sourceID": "5879092",
+    "IDs": {
+     "wikiQID": "Q797",
+     "geonameID": 5879092
+    },
+    "componentName": "headsup",
+    "componentID": 0,
+    "info": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "description": "state of the United States of America",
+    "qualifierReqd": 0,
+    "priority": 6,
+    "isEnabled": 1,
+    "keywordRequired": 0,
+    "primaryText": "",
+    "relevanceScore": 98.654,
+    "sourceValue": 738432,
+    "index": 25,
+    "wgInfo": {
+     "Type": "states",
+     "level": 1,
+     "template": "states"
+    },
+    "primaryID": "5879092"
+   }
+  ],
+  "query": "severe weather alerts in Alaska",
+  "componentEnabled": true,
+  "keyword": [
+   {
+    "word": "weather alerts",
+    "description": ""
+   },
+   {
+    "word": "severe weather",
+    "description": ""
+   }
+  ],
+  "compInfo": {
+   "baseURL": "",
+   "mainline": true,
+   "sidebar": true
+  },
+  "queryTerm": "severe weather alerts in alaska",
+  "disambiguationType": 3,
+  "ugc": false,
+  "time": "2026-10-26T07:06:31.093Z",
+  "qualifierReqd": false,
+  "genericQuery": "severe weather alerts in HD_LOCATION__STATES_ADMIN1",
+  "unambiguous": true,
+  "unresolvedQuery": "",
+  "queryRegex": "(weather|severe\\s+weather|safety|emergency)\\s+(alerts?|warnings?|advisories)\\s+(in|for|near|at)\\s+HD_LOCATION__([^\\s]+)(__\\w+)?.*",
+  "explain": {
+   "tC": 31,
+   "uC": 0,
+   "tW": 5,
+   "uW": 0,
+   "pR": 100
+  },
+  "wgUGC": false,
+  "quickView": 3,
+  "suggestedPlace": "sidebar",
+  "_processedQuery": "severe weather alerts in alaska",
+  "_disambiguationType": 3,
+  "componentType": "internal",
+  "isStandalone": 1
+ }
+]
