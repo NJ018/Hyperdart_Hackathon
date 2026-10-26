@@ -1,5 +1,5 @@
 {
-  "name": "livedisruption",
+  "name": "@baldev1970/livedisruption",
   "version": "1.0.2",
   "source": "src/frontend/index.jsx",
   "main": "dist/index.umd.js",
