@@ -53,5 +53,5 @@ export default  {
 	},
 	// Fill both in before publishing (validated by scripts/validate-publish.js)
 	github: "https://github.com/NJ018/Hyperdart_Hackathon",
-	demovideo: ""
+	demovideo: "https://youtu.be/v1rXDDGVbEg?si=lxtUKXoC21p6rns5"
 }
