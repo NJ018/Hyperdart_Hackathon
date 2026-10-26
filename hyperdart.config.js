@@ -52,6 +52,6 @@ export default  {
 		// key-values added here will be added to the compInfo section of searchData
 	},
 	// Fill both in before publishing (validated by scripts/validate-publish.js)
-	github: "",
+	github: "https://github.com/NJ018/Hyperdart_Hackathon",
 	demovideo: ""
 }
